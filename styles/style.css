@@ -11,7 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../images/weather01.jpg);
+    background-image: url(../images/weatherGif.gif);
     background-repeat:round;
     background-size: cover;
 
@@ -19,7 +19,16 @@ body {
 
 h1 {
     color: #ffffff;
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+p {
+    color:#ffffff;
+    margin: 10px 0px
+}
+
+.profile {
+    color:#ffffff;
 }
 
 .busca {
@@ -38,14 +47,14 @@ h1 {
     padding: 10px;
     font-size: 15px;
     border: 0;
-    background-color: #555;
+    background-color: #1984f698;
     color: #FFF;
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
 }
 .busca button:hover {
-    background-color: #444;
+    background-color: #1984f6;
 }
 
 .resultado {
@@ -54,7 +63,7 @@ h1 {
     border: 1px dotted #FFF;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 .titulo {
@@ -80,13 +89,13 @@ h1 {
 }
 .tempTitulo,
 .ventoTitulo {
-    color: #777;
+    color: #f4f4f4;
     font-size: 16px;
     margin-bottom: 5px;
 }
 .tempInfo,
 .ventoInfo {
-    color: #FFF;
+    color: #ffffff;
     font-size: 30px;
     font-weight: bold;
 }

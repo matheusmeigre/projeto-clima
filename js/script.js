@@ -19,10 +19,12 @@ document.querySelector('.busca').addEventListener('submit', async (event)=> {
                 windSpeed: json.wind.speed,
                 windAngle: json.wind.deg
             })
+            document.querySelector('.chamada').style.display = 'none'
         } else {
             clearInfo()
             showWarning('Localização não encontrada')
         }
+
     } else {
         clearInfo()
     }
